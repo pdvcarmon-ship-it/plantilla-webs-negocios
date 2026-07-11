@@ -45,12 +45,16 @@ const siteConfig = {
   ],
 
   // --- Datos de contacto ---
-  contact: {
+contact: {
     email: "info@peluqueriamarina.example",
     phone: "+34 600 000 000",
     whatsapp: "34600000000", // solo números, con prefijo de país
     address: "Calle Sierpes 24, 41004 Sevilla",
-  },
+    // Clave de acceso de Web3Forms (web3forms.com) para este cliente.
+    // Se genera gratis, sin dominio, en web3forms.com con el email
+    // donde quieres que lleguen las consultas de ESTE negocio.
+    web3formsAccessKey: "PEGA-AQUI-TU-ACCESS-KEY",
+},
 
   // --- Ubicación para el mapa ---
   // Puedes obtener el enlace embed en Google Maps:
