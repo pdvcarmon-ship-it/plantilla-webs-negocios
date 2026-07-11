@@ -23,7 +23,7 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
-            <a href="#contacto" className="btn-primary">
+         <a href="#contacto" className="btn-primary">
               Pedir cita
             </a>
             
