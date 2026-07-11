@@ -53,7 +53,7 @@ media: {
 
   // --- Datos de contacto ---
 contact: {
-    email: "info@peluqueriamarina.example",
+    email: "elcepillo@gmail.com",
     phone: "+34 600 000 000",
     whatsapp: "34600000000", // solo números, con prefijo de país
     address: "Calle Colombia 10, 41013 Sevilla",
@@ -73,7 +73,7 @@ contact: {
 
   // --- Redes sociales (opcional, deja "" si no aplica) ---
   social: {
-    instagram: "https://instagram.com/peluqueriamarina",
+    instagram: "https://instagram.com/elcepo",
     facebook: "",
   },
 
