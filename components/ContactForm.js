@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import siteConfig from "../config/site.config";
 
 const initialState = { name: "", email: "", phone: "", reason: "" };
 
@@ -17,13 +18,22 @@ export default function ContactForm() {
     setStatus("sending");
 
     try {
-      const res = await fetch("/api/contact", {
+      // Envío directo a Web3Forms: no requiere backend ni dominio propio.
+      const res = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        body: JSON.stringify({
+          access_key: siteConfig.contact.web3formsAccessKey,
+          subject: `Nueva consulta de ${form.name} — ${siteConfig.business.name}`,
+          name: form.name,
+          email: form.email,
+          phone: form.phone,
+          message: form.reason,
+        }),
       });
 
-      if (!res.ok) throw new Error("Error en el envío");
+      const data = await res.json();
+      if (!data.success) throw new Error("Error en el envío");
 
       setStatus("sent");
       setForm(initialState);
