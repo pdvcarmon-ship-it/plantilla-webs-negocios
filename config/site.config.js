@@ -71,7 +71,7 @@ const siteConfig = {
   // 2. Archivo > Compartir > Publicar en la Web > selecciona la hoja > formato CSV
   // 3. Pega aquí la URL que te da Google (termina en "output=csv")
   pricingSheetCsvUrl:
-    "https://docs.google.com/spreadsheets/d/e/EJEMPLO/pub?gid=0&single=true&output=csv",
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vTSZrfvMlIPiFi84KMVA1JEBjRdW7ZEcU8KQcQEax3w5pLh8SKYfjHJLYTHn5NCezdV86X0HKMteJkM/pub?output=csv",
 
   // --- SEO básico ---
   seo: {
