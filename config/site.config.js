@@ -34,20 +34,20 @@ media: {
   // --- Servicios que se muestran en la portada ---
   services: [
     {
-      title: "Cortes a medida",
-      description: "Corte, lavado y secado adaptado a tu tipo de pelo.",
+      title: "Vasos helados",
+      description: "Cerveza bien fría.",
     },
     {
-      title: "Color y mechas",
-      description: "Tintes, balayage y mechas con productos profesionales.",
+      title: "La carne buena habla por sí sola",
+      description: "Cada corte, una experiencia. Cada bocado, un motivo para volver.",
     },
     {
-      title: "Tratamientos",
-      description: "Hidratación, keratina y reparación capilar.",
+      title: "Se chapa por la noche",
+      description: "Permitidos los fumadores.",
     },
     {
-      title: "Peinados de evento",
-      description: "Recogidos y peinados para bodas y ocasiones especiales.",
+      title: "Disfruta de la compañía de la mejor compañía",
+      description: "Gran presencia de gente icónica del barrio.",
     },
   ],
 
