@@ -11,7 +11,7 @@ const siteConfig = {
     name: "El Cepillo",
     tagline: "El bar del porve",
     description:
-      "El bar del barrio clásico, para los de siempre. Más de 20 años cuidando del paladaro de nuestro barrio.",
+      "El bar del barrio clásico, para los de siempre. Más de 20 años cuidando del paladar de nuestro barrio.",
     logoText: "El Cepillo", // se usa mientras hasLogo esté en false
 },
 
@@ -86,9 +86,9 @@ contact: {
 
   // --- SEO básico ---
   seo: {
-    title: "Peluquería Marina | Peluquería en Sevilla",
+    title: "El Cepillo | EL bar del Porvenir",
     description:
-      "Peluquería en Sevilla especializada en cortes, color y tratamientos. Pide tu cita hoy mismo.",
+      "Más de 20 años cuidando del paladar de nuestro barrio.",
     locale: "es_ES",
     city: "Sevilla",
   },
