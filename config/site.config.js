@@ -53,7 +53,7 @@ contact: {
     // Clave de acceso de Web3Forms (web3forms.com) para este cliente.
     // Se genera gratis, sin dominio, en web3forms.com con el email
     // donde quieres que lleguen las consultas de ESTE negocio.
-    web3formsAccessKey: "PEGA-AQUI-TU-ACCESS-KEY",
+    web3formsAccessKey: "fedcbd47-54eb-476d-8c11-09cc5b17e597",
 },
 
   // --- Ubicación para el mapa ---
