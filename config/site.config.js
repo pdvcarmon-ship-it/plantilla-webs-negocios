@@ -8,13 +8,20 @@
 const siteConfig = {
   // --- Identidad del negocio ---
   business: {
-    name: "Peluquería Marina",
-    tagline: "Cortes y color con cita en el día",
+    name: "El Cepillo",
+    tagline: "El bar del porve",
     description:
-      "Peluquería de barrio especializada en color, cortes a medida y tratamientos capilares. Más de 12 años cuidando el pelo de nuestro barrio.",
-    logoText: "Marina", // se usa si no hay logo.svg en /public
-  },
+      "El bar del barrio clásico, para los de siempre. Más de 20 años cuidando del paladaro de nuestro barrio.",
+    logoText: "El Cepillo", // se usa mientras hasLogo esté en false
+},
 
+// --- Imágenes ---
+// Sube los archivos a la carpeta /public con estos nombres exactos:
+// logo.png y hero.jpg. Luego activa cada uno poniendo "true".
+media: {
+    hasLogo: false, // true cuando hayas subido public/logo.png
+    hasHeroImage: false, // true cuando hayas subido public/hero.jpg
+},
   // --- Colores de marca ---
   // Cambia solo estos 4 valores y toda la web se adapta.
   colors: {
