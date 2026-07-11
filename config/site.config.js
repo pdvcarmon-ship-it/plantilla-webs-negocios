@@ -56,7 +56,7 @@ contact: {
     email: "info@peluqueriamarina.example",
     phone: "+34 600 000 000",
     whatsapp: "34600000000", // solo números, con prefijo de país
-    address: "Calle Sierpes 24, 41004 Sevilla",
+    address: "Calle Colombia 10, 41013 Sevilla",
     // Clave de acceso de Web3Forms (web3forms.com) para este cliente.
     // Se genera gratis, sin dominio, en web3forms.com con el email
     // donde quieres que lleguen las consultas de ESTE negocio.
@@ -68,7 +68,7 @@ contact: {
   // botón "Compartir" > "Insertar un mapa" > copiar la URL del src del iframe.
   map: {
     embedUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3176.7!2d-5.9954!3d37.3891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sSierpes%2C+Sevilla!5e0!3m2!1ses!2ses!4v0000000000",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d179.3407290979445!2d-5.982272446627945!3d37.36978969490043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126c280526992d%3A0xa7f529db2ca09505!2sYvonne%20Infantil!5e1!3m2!1ses!2ses!4v1783789095579!5m2!1ses!2ses",
   },
 
   // --- Redes sociales (opcional, deja "" si no aplica) ---
