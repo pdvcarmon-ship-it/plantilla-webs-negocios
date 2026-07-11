@@ -19,8 +19,8 @@ const siteConfig = {
 // Sube los archivos a la carpeta /public con estos nombres exactos:
 // logo.png y hero.jpg. Luego activa cada uno poniendo "true".
 media: {
-    hasLogo: false, // true cuando hayas subido public/logo.png
-    hasHeroImage: false, // true cuando hayas subido public/hero.jpg
+    hasLogo: true, // true cuando hayas subido public/logo.png
+    hasHeroImage: true, // true cuando hayas subido public/hero.jpg
 },
   // --- Colores de marca ---
   // Cambia solo estos 4 valores y toda la web se adapta.
