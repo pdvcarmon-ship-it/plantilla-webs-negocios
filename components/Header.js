@@ -1,0 +1,32 @@
+import Link from "next/link";
+import siteConfig from "../config/site.config";
+
+export default function Header() {
+  return (
+    <header className="sticky top-0 z-40 border-b border-line bg-paper/90 backdrop-blur">
+      <div className="mx-auto flex max-w-5xl items-center justify-between px-5 py-4">
+        <Link
+          href="/"
+          className="font-display text-lg font-600 tracking-tight text-ink"
+        >
+          {siteConfig.business.logoText}
+        </Link>
+
+        <nav className="flex items-center gap-6 text-sm font-medium">
+          <Link href="/" className="hover:text-primary">
+            Inicio
+          </Link>
+          <Link href="/tarifas" className="hover:text-primary">
+            Tarifas
+          </Link>
+          <a
+            href={`tel:${siteConfig.contact.phone.replace(/\s/g, "")}`}
+            className="btn-primary hidden sm:inline-flex"
+          >
+            Llamar ahora
+          </a>
+        </nav>
+      </div>
+    </header>
+  );
+}
