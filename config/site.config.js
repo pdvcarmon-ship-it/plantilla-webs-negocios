@@ -32,6 +32,11 @@ media: {
   },
 
   // --- Servicios que se muestran en la portada ---
+  // Si rellenas "servicesSheetCsvUrl" con un enlace CSV de Google Sheets,
+  // el cliente podrá editar estos textos él mismo desde ahí. Si lo dejas
+  // vacío (""), se usará la lista fija de "services" de aquí abajo.
+  servicesSheetCsvUrl: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTSZrfvMlIPiFi84KMVA1JEBjRdW7ZEcU8KQcQEax3w5pLh8SKYfjHJLYTHn5NCezdV86X0HKMteJkM/pub?gid=125530377&single=true&output=csv",
+
   services: [
     {
       title: "Vasos helados",
@@ -82,7 +87,7 @@ contact: {
   // 2. Archivo > Compartir > Publicar en la Web > selecciona la hoja > formato CSV
   // 3. Pega aquí la URL que te da Google (termina en "output=csv")
   pricingSheetCsvUrl:
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vTSZrfvMlIPiFi84KMVA1JEBjRdW7ZEcU8KQcQEax3w5pLh8SKYfjHJLYTHn5NCezdV86X0HKMteJkM/pub?output=csv",
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vTSZrfvMlIPiFi84KMVA1JEBjRdW7ZEcU8KQcQEax3w5pLh8SKYfjHJLYTHn5NCezdV86X0HKMteJkM/pub?gid=0&single=true&output=csv",
 
   // --- SEO básico ---
   seo: {
